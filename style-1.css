@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 200;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  background-color: #ffffff;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #e6b3ff;
+  color: white;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    color: #cc66ff;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6
+}
+
+p.footnote {
+    word-wrap: break-word;
+    line-height: 1
+}
+p.divider {
+    text-align: center;
+}
+p.author.credit {
+    font-style: italic;
+}
+
+/* Anchor Adjustment */
+
+a.anchor {
+  padding-top: 6rem;
+  margin-top: -6rem;
+  display: inline-block; /* required for webkit browsers */
+}
+
+tab {
+  padding-left: 40px;
+}
