@@ -7,6 +7,11 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+.header {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
 /* Style the side navigation */
 .sidenav {
   height: 100%;
@@ -41,12 +46,13 @@ body {
   padding-left: 20px;
 }
 
-h2, h3 {
-  text-align: center;
+h2 {
+  text-align: left;
+  font-size: 20
 }
 
 h3 {
-  font-style: italic;
+  text-align: center;
 }
 
 a {
