@@ -30,6 +30,7 @@ body {
   background-color: #ffffff;
   color: black;
   padding: 16px;
+  padding-left: 20px;
   text-decoration: none;
   display: block;
 }
@@ -40,23 +41,26 @@ body {
   color: white;
 }
 
+
 /* Style the content */
 .content {
   margin-left: 200px;
-  padding-left: 20px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 24px
 }
 
 h2 {
   text-align: left;
-  font-size: 20
-}
-
-h3 {
-  text-align: left;
+  font-size: 20px
 }
 
 a {
-    color: black;
+    color: blue;
 }
 a:hover {
     color: #cc66ff;
